@@ -4,9 +4,11 @@
   "config_flow": true,
   "documentation": "https://github.com/jrfernandes/ontario_energy_board",
   "issue_tracker": "https://github.com/jrfernandes/ontario_energy_board/issues",
+  "dependencies" : [
+    "workday"
+  ],
   "requirements": [
-    "beautifulsoup4==4.10.0",
-    "holidays>=0.21"
+    "beautifulsoup4==4.10.0"
   ],
   "codeowners": [
     "@jrfernandes"
